@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Learnig Testng">
+
+<groups>
+   <run>
+      <include name="functional" />
+    </run>
+  </groups>
+  
+	<test name="reg Login_Test">
+		<classes>
+
+		<class name="RegTestCases.TestCase1gropping" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="reg registration_Test">
+		<classes>
+			<class name="RegTestCases.Testcase2" />
+
+
+		</classes>
+	</test> <!-- Test -->
+	<test name="reg validate_Test">
+		<classes>
+
+			<class name="RegTestCases.Testcase3" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

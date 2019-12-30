@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Learnig Testng">
+<listeners>
+<listener class-name="Listeners.CustomerListeners"/>
+<listener class-name="Listeners.MyTransformer"/>
+<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+</listeners>
+	<suite-files>
+	<suite-file path ="regTestng.xml"></suite-file>
+	<suite-file path ="Testng.xml"></suite-file>
+	</suite-files>
+</suite> <!-- Suite -->
